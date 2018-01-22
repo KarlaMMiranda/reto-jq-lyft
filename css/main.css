@@ -53,3 +53,15 @@ body {
 .dropdown-menu {
   min-width: 3em;
 }
+
+h6 {
+  margin-top: 2em;
+}
+
+.next {
+  background: #A80077;
+  color: #FFF;
+  font-weight: 500;
+  border-radius: 0;
+  margin-top: 18em;
+}
