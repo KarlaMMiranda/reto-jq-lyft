@@ -3,7 +3,7 @@ body {
   text-align: center;
 }
 
-/*Estilos de index html */
+/*Estilos index html */
 .vista {
   background-image: url("../assets/images/purple-gradient.png");
   background-repeat: no-repeat;
@@ -16,7 +16,7 @@ body {
   margin-top: 18em;
 }
 
-/*Estilos de lyft html */
+/*Estilos vista lyft*/
 .vista-1 {
   background-image: url("../assets/images/city.jpg");
   background-repeat: no-repeat;
@@ -36,9 +36,10 @@ body {
   font-weight: 500;
 }
 
-/*Estilos sign up*/
+/*Estilos vista sign up*/
 .vista-2 {
   background: #FFF;
+  margin-top: 1em;
 }
 
 .fa-1 {
@@ -46,7 +47,7 @@ body {
   color: #CE308B;
 }
 
-.form-control {
+.number {
   height: 3.3em;
 }
 
@@ -63,5 +64,60 @@ h6 {
   color: #FFF;
   font-weight: 500;
   border-radius: 0;
-  margin-top: 18em;
+  margin-top: 10em;
+}
+
+ /*Estilos vista lyftcode */
+ p {
+   margin-top: 8em;
+   font-size: 1.5em;
+ }
+
+/*Estilos vista veryfy */
+.labcode {
+  background: none
+}
+
+h3 {
+  display: inline-block;
+}
+
+#labnum {
+  height: 3em;
+  width: 58%;
+}
+
+#labver {
+  margin-left: 4.5em;
+}
+
+/*Estilos vista user*/
+#name-1 {
+  width: 50%;
+}
+
+.user-icon {
+  background: none;
+}
+
+.input-group {
+  margin-bottom: 1em;
+}
+
+/*Estilos vista Welcome */
+.vista-3 {
+  background-image: url("../assets/images/welcome.gif");
+  height: 100vh;
+}
+
+h1 {
+  color: #FFF;
+  font-size: 3em;
+  margin-top: 5em;
+  font-weight: 800;
+}
+
+.logo-2 {
+  margin-top: 1.5em;
+  width: 100%;
 }
