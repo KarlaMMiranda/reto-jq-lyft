@@ -113,6 +113,16 @@ h3 {
   margin-bottom: 1em;
 }
 
+.terms {
+  text-decoration: inherit;
+  color: blue ;
+}
+
+.terms:hover{
+  text-decoration: none;
+    color: #CE308B;
+}
+
 /*Estilos vista Welcome */
 .vista-3 {
   background-image: url("../assets/images/welcome.gif");
