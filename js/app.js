@@ -12,8 +12,21 @@ $(document).ready(function() {
     },2000);
 });
 
-//Funcion que arroja los tres dígitos aleatorios
+//Función que arroja los tres dígitos aleatorios
 function digitos() {
     var x = Math.floor((Math.random() * 900) + 100);
     document.getElementById("numbers").innerHTML = x;
+}
+
+//Función para habilitar y desabilitar botones
+function validatePhoneNumber() {
+  var $buttonToVerifyView = $('.validate-phone');
+
+  if($(this).val().trim().length === 10) {
+    $buttonToVerifyView.removeAttr('disabled');
+    // $linkToVerifyView.attr("href", "verify-view.html");
+  }else {
+    $buttonToVerifyView.attr('disabled', true);
+    // $linkToVerifyView.attr('href','#');
+  }
 }
