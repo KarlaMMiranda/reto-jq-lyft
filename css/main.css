@@ -56,8 +56,9 @@ a:hover{
   color: #CE308B;
 }
 
-.number {
+#number {
   height: 3.3em;
+  width: 12.5em;
 }
 
 .dropdown-menu {
@@ -93,7 +94,7 @@ h3 {
 
 #labnum {
   height: 3em;
-  width: 58%;
+  width: 4.5em;
 }
 
 #labver {
@@ -102,7 +103,7 @@ h3 {
 
 /*Estilos vista user*/
 #name-1 {
-  width: 50%;
+  width: 10.7em;
 }
 
 .user-icon {
