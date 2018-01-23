@@ -19,14 +19,3 @@ function digitos() {
 }
 
 //Función para habilitar y desabilitar botones
-function validatePhoneNumber() {
-  var $buttonToVerifyView = $('.validate-phone');
-
-  if($(this).val().trim().length === 10) {
-    $buttonToVerifyView.removeAttr('disabled');
-    // $linkToVerifyView.attr("href", "verify-view.html");
-  }else {
-    $buttonToVerifyView.attr('disabled', true);
-    // $linkToVerifyView.attr('href','#');
-  }
-}
