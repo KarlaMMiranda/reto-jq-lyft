@@ -78,11 +78,15 @@ h5 {
 }
 
  /*Estilos vista lyftcode */
- p {
-   margin-top: 8em;
-   font-size: 1.5em;
+ #codelab {
+  margin-top: 8em;
+  font-size: 1.5em;
  }
 
+#numbers{
+  display: inline-block;
+
+}
 /*Estilos vista veryfy */
 .labcode {
   background: none

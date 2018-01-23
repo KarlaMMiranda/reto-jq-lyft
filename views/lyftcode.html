@@ -11,12 +11,12 @@
 <!-- Enlaza CSS -->
     <link rel="stylesheet" href="../css/main.css">
   </head>
-  <body>
+  <body onload="digitos()">
     <section class="vista-2">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-xs-8 col-xs-push-2">
-            <p>Tu código: LAB-000</p>
+          <div class="col-xs-8 col-xs-push-2" id="codelab">
+            <span>Tu código: LAB-<p id="numbers"></p></span>
             <a href="verify.html"><button class="btn btn-default btn-lg next col-xs-12" type="button">OK</button></a>
           </div>
         </div>
