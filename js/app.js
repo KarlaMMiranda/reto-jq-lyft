@@ -17,5 +17,3 @@ function digitos() {
     var x = Math.floor((Math.random() * 900) + 100);
     document.getElementById("numbers").innerHTML = x;
 }
-
-//Función para habilitar y desabilitar botones
